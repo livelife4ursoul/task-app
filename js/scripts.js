@@ -1,0 +1,29 @@
+//Add new item to list
+function newItem(){
+
+    let li = $('<li></li>');
+    let inputValue = $('#input').val();
+    li.append(inputValue);
+
+    if (inputValue === ' ') {
+        alert('You must write something!');
+    } else {
+        $('#list').append(li);
+    }
+
+//Crossout an item
+
+    function crossOut() {
+        li.toggleClass('strike');
+    }
+
+    li.on('dblclick', function crossOut() {
+        li.toggleClass('strike');
+    });
+
+    //add delete button
+
+    let crossOutButton = $('<crossOutButton></crossOutButton>');
+
+    crossOutButton.append(document.createTextNode('X'));
+}
