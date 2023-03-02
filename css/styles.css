@@ -54,7 +54,9 @@ ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
 
-ol li:nth-child(even){background: #dfdfdf;}
+/* ol li:nth-child(-n + 1){background: #05c3f3;} */
+
+/* ol li:nth-child(even){background: #fc999b;} */
 
 .strike{text-decoration: line-through;}
 
@@ -70,6 +72,6 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: #f1f10e;
 	font-weight: 800;
 }
