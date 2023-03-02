@@ -1,5 +1,5 @@
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400); */
 
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
@@ -11,8 +11,22 @@ padding: 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
-background: white;
-border-radius: 5px;}
+background: linear-gradient(45deg,
+hsl(0, 100%, 50%),
+hsl(30, 100%, 50%),
+hsl(60, 100%, 50%),
+hsl(90, 100%, 50%),
+hsl(120, 100%, 50%),
+hsl(150, 100%, 50%),
+hsl(180, 100%, 50%),
+hsl(210, 100%, 50%),
+hsl(240, 100%, 50%),
+hsl(270, 100%, 50%),
+hsl(300, 100%, 50%),
+hsl(330, 100%, 50%),
+hsl(360, 100%, 50%)
+);
+border-radius: 10px;}
 
 form {
 display: inline-block;
