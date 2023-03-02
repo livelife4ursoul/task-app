@@ -39,4 +39,8 @@ function newItem() {
     // add reordering of itemes
 
     $('#list').sortable();
+
+    // add draggable function  
+
+    $('#list').draggableTouch();
 }
