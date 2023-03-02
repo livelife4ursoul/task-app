@@ -9,7 +9,9 @@ function newItem() {
         alert('You must write something!');
     } else {
         $('#list').append(li);
+        $('#input').val('');
     }
+
 
 //Crossout an item
 
@@ -34,5 +36,7 @@ function newItem() {
 
     crossOutButton.on('click', deleteListItem);
 
-    $('list').sortable();
+    // add reordering of itemes
+
+    $('#list').sortable();
 }
